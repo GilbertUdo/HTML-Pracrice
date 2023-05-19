@@ -1,0 +1,42 @@
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>My first Webpage </title>
+    <style>
+      table,th,td{
+      border:1px solid green;
+      border-collapse:collapse;
+      }  
+    </style>l
+  </head>
+  <body>
+    <h1>COMPANY Z Employee information </h1>
+    <table style="Width:50%">
+      <tr>
+        <td style="width:30%">First name </td>
+        <td>Second name</td>
+        <td>Age</td>
+        <tr>
+          <tr>
+          <th>Gilbert</th>
+            <th>Udo</th>
+            <th>18</th>
+          </tr>
+          <header role="banner' >
+            <div class="logo"></div>
+              
+            <nav>
+            <ul>
+                             <li><a href="#">Homepage</a></li>
+                                            <li><a href="#">About Us</a></li>
+                                                           <li><a href="#">Contact us</a></li>
+                                                                          <li><a href="#">Services</a></li>
+                             </ul>
+            
+            </nav>
+    
+          
+          </header>     
+    </table>
+  </body>
+</html>
