@@ -1,0 +1,79 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        thead,th,td{ /* These are group selectors in CSS */
+            border: 1px solid black;
+        }
+        table{
+        border:3px solid black;   
+        width: 50%;
+        }
+        .color{
+          background-color: lightskyblue;
+        }
+        #paral {
+text-align:center;
+color:#e22b2b;
+        }
+        h1,p {
+          background-color: blue;
+          opacity: 0.3; /*This is used to specify the transparency of an element */
+        }
+        body {
+          background-image: url("Culture.jpg");
+          background-repeat: no-repeat;
+          background-position: right top;
+        }
+    </style>
+</head>
+<body class="color"> <!-- This class CSS selector used to select HTML elemt you want to style-->
+  <h1>PRACTICE WEBPAGE</h1>
+  <p id="paral">This webpage is meant for practice purposes only</p>
+    <table style="background-color:lightgreen;" cellpadding="3" cellspacing="3" >
+        <thead style="text-align: center;">
+          <tr>
+            <td colspan="4" ><b>Web develpment class<b></b></td>
+          </tr>
+        </thead>
+        <tr>
+          <th>Student name</th>
+          <th>Reg n0</th>
+          <th>Age</th>
+          <th>Gender</th>
+          
+        </tr>
+        <tr>
+          <td>Peter</td>
+          <td>A0001</td>
+          <td>20</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Judy</td>
+          <td>A0002</td>
+          <td>19</td>
+          <td>Female</td>
+        </tr>
+        <tr>
+          <td>Richard</td>
+          <td>A0003</td>
+          <td>23</td>
+          <td>Male</td>
+        </tr>
+       
+          <tr>
+            <th colspan="4"></th><b>May 2023 intake:CSI Faculty</b></th>
+          </tr>
+      </table>
+    
+   <ul>
+    <li></li>
+   </ul> 
+      
+</body>
+</html>
